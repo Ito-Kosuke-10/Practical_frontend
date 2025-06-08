@@ -1,7 +1,7 @@
+'use client';
+
 // 🚩 追加：SSGを無効化してビルドエラーを回避
 export const dynamic = 'force-dynamic';
-
-'use client';
 
 import OneCustomerInfoCard from "@/app/components/one_customer_info_card.jsx";
 import fetchCustomer from "./fetchCustomer";
